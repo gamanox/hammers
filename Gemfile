@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+ruby "2.1.3"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 gem "haml-rails", "~> 0.9"
@@ -49,3 +49,11 @@ gem 'devise'
   
 #for layout and helpers generations 
 gem "nifty-generators", :group => :development
+# gem "rack-livereload", :group => :development
+group :development do
+  gem 'guard'
+  gem 'guard-livereload', '~> 2.4', require: false
+  gem 'ruby_gntp'
+end
+gem 'rails-i18n', '~> 4.0.0'
+gem 'geocoder'

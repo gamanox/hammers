@@ -1,11 +1,17 @@
 Myapp::Application.routes.draw do
   get "home/index"
   get "home/site"
+  get "home/about"
+  get "home/projects"
+  get "home/services"
+  get "home/contact"
+  get "home/login"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-root to: 'home#index'
+root to: 'home#site'
+get '/change_locale/:locale', to: 'settings#change_locale', as: :change_locale
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

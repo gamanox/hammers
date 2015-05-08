@@ -1,0 +1,49 @@
+#contacto.section
+  #mapa
+  .contacto-container
+    .container
+      .row
+        .col-md-4.contacto-form
+          .contacto-form-cont
+            %h3 #{t 'contact.title'}
+            %p #{t 'contact.description'}
+
+            %form{:action => "MAILTO:info@hammers.com", :enctype => "text/plain", :method => "post"}
+              #{t 'contact.full_name'}
+              %br/
+              %input{:name => "name", :type => "text"}/
+              %br/
+              #{t 'contact.mail'}
+              %br/
+              %input{:name => "mail", :type => "text"}/
+              %br/
+              #{t 'contact.phone'}
+              %br/
+              %input{:name => "phone", :type => "text"}/
+              %br/
+              #{t 'contact.interest'}
+              %br/
+              / %input{:name => "interest", :type => "text"}/
+              %select#bolsatrabajo{:name => "", value: "1"}
+                %option{:value => "Bolsa de trabajo"}#{t 'contact.option-1'}
+                %option{:value => "Clientes"}#{t 'contact.option-2'}
+                %option{:value => "Contratistas"}#{t 'contact.option-3'}
+                %option{:value => "Proyectos"}#{t 'contact.option-4'}
+                %option{:value => "Proyectos"}#{t 'contact.option-5'}
+                %option{:value => "Quejas y sugerencias"}#{t 'contact.option-6'}
+                %option{:value => "Quiero ser proveedor"}#{t 'contact.option-7'}
+              %br/
+              #{t 'contact.upload'}
+              %br/
+              / %input{:name => "curriculum", :type => "text"}/
+              %span.file-input.btn.btn-block.btn-primary.btn-file
+                #{t 'contact.select-file'}
+                %input{:multiple => "multiple", :type => "file", :name =>"curriculum"}/
+              %br/
+              #{t 'contact.message'}
+              %br/
+              %textarea{:name => "comment", :size => "50", :type => "text"}
+              
+              %input{:type => "submit", :value => "#{t 'contact.send'}", :class => "sendbtn"}/
+              / %input{:type => "reset", :value => "BORRAR", :class => "sendbtn"}/
+

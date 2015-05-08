@@ -1,0 +1,43 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Hammers México
+    %meta#viewport{:content => "width=device-width, initial-scale=0.7, maximum-scale=1, user-scalable=0", :name => "viewport"}/
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+    %script{src: "https://maps.googleapis.com/maps/api/js?key=AIzaSyBlCfM0AREoInld8kiL4ARggF1RsgQq-7g"}
+    %script{src: "http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"}
+    %script{src: "http://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js"}
+    = csrf_meta_tags
+    
+    
+  %body
+    #header
+      .header-container
+        = link_to("", "/home/site", class: 'logo')
+        %ul#main-menu
+          %li.menu-item
+            / %a{:href => "#"} ACERCA DE
+            = link_to(t('menu.about'), "/home/about")
+          %li.menu-item
+            = link_to(t('menu.services'), "/home/services")
+
+          %li.menu-item
+            = link_to(t('menu.projects'), "/home/projects")
+            / # = link_to("PROYECTOS", "/home/proyects")
+
+          %li.menu-item
+            = link_to(t('menu.contact'), "/home/contact") 
+          / %li.menu-item.login
+          /   = link_to("INGRESAR", "/home/login")
+        - if I18n.locale == I18n.default_locale
+          = link_to("ES", change_locale_path(:es), class: "menu-login")
+        - else
+          = link_to("EN", change_locale_path(:en), class: "menu-login")
+        = link_to(t('menu.login'), "/home/login", class: "menu-login")
+
+    = yield
+    %script{"data-cfasync" => "false", :type => "text/javascript"}
+      
+      (function () { var done = false;var script = document.createElement('script');script.async = true;script.type = 'text/javascript';script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';document.getElementsByTagName('HEAD').item(0).appendChild(script);script.onreadystatechange = script.onload = function (e) {if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {var w = new PCWidget({ c: '03b7ee63-03a7-486e-ab1d-1a15182bd0c3', f: true });done = true;}};})();

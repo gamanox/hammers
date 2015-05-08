@@ -20,4 +20,296 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  
+  menu:
+    about: "ABOUT"
+    services: "SERVICES"
+    projects: "PROJECTS"
+    contact: "CONTACT"
+    login: "Login"
+    language: "ES"
+  home:
+    intro_text1: "RESIDENTIAL | INDUSTRIAL | COMMERCIAL"
+    intro_text2: "ENGINEERING | INSTALLATION | REPAIR | MAINTENANCE"
+    splash:
+      empowered: "POWERED"
+      by: "BY OUR"
+      people: "PEOPLE"
+    legend: "Our strategy, is equivalent to increased competitiveness for us and our business partners"
+  categories:
+    title: "Categories"
+    electric: 
+      title: "Electrical"
+      description: "It is called electrical installations the set of elements which allow transmission and distribution of electricity, from the point of supply to dependent equipment , must be reliable, efficient, economical, flexible, simple, safe and likable on the eye."
+      sub1: "Low tension"
+      sub2: "Mid tension"
+      sub3: "High tension"
+      sub4: "Distribution"
+      sub5: "Control"
+      sub6: "Substations"
+      sub7: "Ground systems"
+      sub8: "Lightning systems"
+      sub9: "Uninterruptible power solutions"
+      sub10: "Save energy"
+      sub11: "Eco energy"
+      sub12: "Lighting"
+      sub13: "Street lighting"
+      sub14: "Urbanization"
+      sub15: "Voltage regulation"
+
+
+    mechanic: 
+      title: "Mechanical"
+      description: "Are those comprising the vehiculation of fluids (liquids and gases) and in which it acts, therefore, necessary mechanical. As in electrical installations, there is a specific legislation governing such facilities."
+
+      sub1: "Hydraulic"
+      sub2: "Drain sewer"
+      sub3: "Plumbing"
+      sub4: "Fire protection system"
+      sub5: "Gas"
+      sub6: "Piping"
+      sub7: "Water treatment plant"
+      sub8: "Water tank"
+      sub9: "Irrigation"
+      sub10: "Hidropneumatic equipment"
+      sub11: "Pools, fountains and water storage"
+      sub12: "Urbanization"
+
+    security: 
+      title: "Electronic Security"
+      description: "This concept includes all products and services based on an electronic device, allow you to implement controls and Automatic notice an essential complement to any general security plan."
+      sub1: "CCTV"
+      sub2: "Access control"
+      sub3: "Smoke detector"
+      sub4: "Monitoring"
+      sub5: "Toxic gas detector"
+    air: 
+      title: "Air Conditioning"
+      description: "Air Conditioning Systems allow you to create an artificial climate inside a building. According to needs, at certain times it will produce heat and cold in others, to create an environment of comfortable temperature."
+      sub1: "Air condition"
+      sub2: "Ventilation"
+      sub3: "Heating"
+      sub4: "Extraction"
+      sub5: "Refrigeration"
+      sub6: "Humidify"
+      sub7: "Dry system"
+      sub8: "Ducts"
+  contact:
+    title: "Contact us"
+    send_mail: "SEND EMAIL"
+    send: "SEND"
+    description: "If you want to join our team, want to be a contractor, supplier, that we partner with you on your project or are you interested in our services policies, send us your information and we call you right away, we are always ready when some one is looking for us, we commit to call you on the next 24 hours."
+    full_name: "Full Name:"
+    mail: "E-Mail:"
+    phone: "Phone:"
+    interest: "Area of Interest:"
+    option-1: "Jobs"
+    option-2: "Clients"
+    option-3: "Contractors"
+    option-4: "Maintenance Policies"
+    option-5: "Projects"
+    option-6: "Complaints and suggestions"
+    option-7: "I want to be a supplier"
+
+    upload: "Upload a file: (10Mb)"
+    select-file: "Select file..."
+    message: "Message:"
+  login:
+    copy: "Choose where you want to enter."
+    sharebox: "VIRTUAL FOLDER"
+    email: "WEB MAIL"
+  about:
+    principles: 
+      title: "Seven basic principles of the company."
+      one: "Be the best."
+      two: "Communication and openness."
+      three: "Proactive to customer needs."
+      four: "Maintain and prevent the safety of our team."
+      five: "Care for workstations."
+      six: "To give high quality works at a fair price."
+      seven: "Keep us updated constantly and certified."
+
+    quote: "Simply, we are a team of professional."
+    ourcompany: 
+      title: "Our Company"
+      description1: "Hammers electromechanical and electronic security was created to provide specialized services and skilled engineering, implementation, maintenance and auditing of electromechanical systems such as electrical, mechanical, air conditioning and electronic security systems required in the construction industry and maintenance work."
+      description2: "Our commitment is to achieving perfection that can be measured in quality, economic and delivery on time and according of agreements made on each project, maintenance or repair with customers."
+      description3: "Our mission is to generate returns to the company through providing services of high quality in consulting, engineering, installation, audit and electromechanical maintenance, air conditioning and electronic security to the construction industry for residential, industrial or commercial projects."
+    bestchoice:
+      title: "The Best Choice"
+      description1: "We are experts installers, from the installation of an air conditioning unit, a smoke detector, a switch or the composure of residential drainage to substations, distribution lines, networks, fire protection, CCTV and fire protection systems."
+      description2: "No matter who did the engineering we execute it; no matter who did the installation, we audited it; no matter where you bought the product we installed it, repair or give maintenance; it doesn’t matter if you only want to do the engineering or just want us to advise you"
+    commitment:
+      title: "Our Commitment"
+      description1: "Since receiving your call at Hammers we handle all your projects, personal, business or emergencies in a confidential manner giving the special treatment that our clients and prospects ask us, focusing on details."
+      description2: "It is also important to note that Hammers emphasizes in the safety of our staff so that our team has social insurance, tools and the safety equipment needed to do the work, we also have a lot of commitment for taking care of the working areas, focusing on cleanliness, so our crews have the items needed to leave the area cleaner as received."
+  projects:
+    title: "Recent Projects"
+
+    one:
+      title: "Fraccionamiento Los Parques Tercer Sector"
+
+      feature-one: "∙ Mid tension"
+
+      feature-two: "∙ Low tension"
+
+      feature-three: "∙ Street lighting"
+
+    two:
+      title: "Fraccionamiento Quinta Real II"
+      
+
+      feature-one: "∙ Mid tension"
+
+      feature-two: "∙ Low tension"
+
+      feature-three: "∙ Street lighting"
+
+    three:
+      title: "Fraccionamiento Reguiletes"
+      
+
+      feature-one: "∙ Mid tension"
+
+      feature-two: "∙ Low tension"
+
+      feature-three: "∙ Street lighting"
+
+    four:
+      title: "Fraccionamiento Santa Isabel"
+      
+
+      feature-one: "∙ Core"
+
+      feature-two: "∙ Mid tension"
+
+      feature-three: "∙ Low tension"
+
+    five:
+      title: "Edificio departamentos Compostela II"
+      
+
+      feature-one: "∙ Mid tension"
+
+      feature-two: "∙ Low tension"
+
+      feature-three: "∙ Lighting"
+
+      feature-four: "∙ Street lighting "
+
+      feature-five: "∙ Electronic security "
+
+    six:
+      title: "Edificio Corporativo HEB"
+      
+
+      feature-one: "∙ Mid tension"
+
+      feature-two: "∙ Low tension"
+
+      feature-three: "∙ Street lighting"
+
+      feature-four: "∙ Hydraulic"
+
+      feature-five: "∙ Plumbing"
+
+      feature-six: "∙ Drain sewer"
+
+      feature-seven: "∙ Extraction"
+
+      feature-eight: "∙ Condensed"
+
+    seven:
+      title: "Edificio de oficinas Altreca"
+      
+
+      feature-one: "∙ Mid tension"
+
+      feature-two: "∙ Low tension"
+
+      feature-three: "∙ Lighting"
+
+      feature-four: "∙ Lighting"
+
+      feature-five: "∙ Hydraulic"
+
+      feature-six: "∙ Plumbing"
+
+      feature-seven: "∙ Drain sewer"
+
+      feature-eight: "∙ Fire protection system"
+
+    eight:
+      title: "Edificio de oficinas Belisario"
+      
+
+      feature-one: "∙ Mid tension"
+
+      feature-two: "∙ Low tension"
+
+      feature-three: "∙ Lighting"
+
+      feature-four: "∙ Lighting"
+
+      feature-five: "∙ Hydraulic"
+
+      feature-six: "∙ Plumbing"
+
+      feature-seven: "∙ Drain sewer"
+
+      feature-eight: "∙ Fire protection system"
+
+    nine:
+      title: "Edificio de departamentos Oriente 109"
+
+      feature-one: "∙ Mid tension"
+
+      feature-two: "∙ Low tension"
+
+      feature-three: "∙ Lighting"
+
+      feature-four: "∙ Lighting"
+
+      feature-five: "∙ Hydraulic"
+
+      feature-six: "∙ Plumbing"
+
+      feature-seven: "∙ Drain sewer"
+
+      feature-eight: "∙ Gas"
+
+      feature-nine: "∙ Condensed"
+
+      feature-ten: "∙ Extraction"
+  services:
+    one:
+      title: "Engineering 8/6"
+      description: "We have a team of leaders designers and cad designers in electrical and mechanical installations, as well in lighting, air conditioning, piping and electronic security. Our company has the necessary hardware and software to cope with the needs of our customers and prospectus."
+    two:
+      title: "Insurance policy maintainance 24/7"
+      description: "In Hammers we emphasize that every factory, hospital, mall, office, industrial park and others should have a tracking preventive maintenance for non-stop production processes, services or cause discomfort to customers, the consequence of not having a maintenance policy may result in corrective maintenance in the short or long term with high investment costs, tailor your policy to your needs maintenance from permanent crews 24 hours to count service hours per month, so we extended one year warranty on our installations or repairs at no cost with your policy."
+    three:
+      title: "Installation 24/7"
+      description: "Our experience is a commitment to achieving perfection, Hammers have technicians, supervisors and project leaders working in electronic security and industrial, comercial and electromechanical installations focusing on quality that our company offer under own policy and delivery that required by our client."
+    four:
+      title: "Warranties 24/7"
+      description: "All our installations, maintenance and repair have extensive warranty 24 hours 7 days a year, about any event attracted by default factory equipment supplied by our company and labor, we protect you directly, we do responsable, simply we are professionals."
+    five:
+      title: "Uninterruptible power solutions 24/7"
+      description: "Our company has emergency power plants and power plants owners associations nationwide emergency with which we give solution to your urgency if at the momento we can solve the problem physically"
+    six:
+      title: "Procedures 8/6"
+      description: "Hammers Electromechanical support you in private and public agencies with the processing of feasibilities and other administrative processes needed for your project can be carried out in a timely and manner."
+    seven:
+      title: "Project administrator"
+      description: "In any industrial, commercial, residential or institutional project ,has Hammers Electromechanical Project Management Service on all electromechanical installations, air conditioning and electronic security, where we advise, plan, organize, and control the process of facilities for successful efficiently project to customer needs."
+    eight:
+      title: "Repair 24/7"
+      description: "24 hours a day, 7 days a year, Hammers is to repair claims occurred in electromechanical and electrctronic security, our team has the tools, parts and enough equipment to service their needs that can be from a power transformer to an air conditioning, we solve."
+    nine:
+      title: "Audit 8/6"
+      description: "Our team of engineers and administrative staff has the ability to audit the facilities, engineering or projects in terms of quality and quantity, we are here to assist you."
+    quote: "OUR TEAM ARE HERE TO HELP YOU DAY AND NIGHT, BY THE PHONE OR VISITING YOU, WE CAN SERVE YOU"
+
+
+

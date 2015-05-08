@@ -1,0 +1,306 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+es:
+  
+  menu:
+    about: "ACERCA DE"
+    services: "SERVICIOS"
+    projects: "PROYECTOS"
+    contact: "CONTACTO"
+    login: "Acceso"
+    language: "EN"
+  home:
+    intro_text1: "RESIDENCIAL | INDUSTRIAL | COMERCIAL"
+    intro_text2: "INGENIERÍA | INSTALACIÓN | REPARACIÓN | MANTENIMIENTO"
+    splash:
+      empowered: "IMPULSADOS"
+      by: "POR NUESTRA"
+      people: "GENTE"
+    legend: "Nuestra estratégia, equivale a mayor competitividad para nosotros y nuestros socios comerciales."
+  categories:
+    title: "Categorías"
+    electric: 
+      title: "Eléctrico"
+      description: "Se le llama instalación eléctrica al conjunto de elementos los cuales permiten transportar y distribuir la energía eléctrica, desde el punto de suministro hasta los equipos dependientes de estas, deben ser confiable, eficiente, económica, flexible, simples, seguras y agradables a la vista."
+
+      sub1: "Baja tensión"
+      sub2: "Media tensión"
+      sub3: "Alta tensión"
+      sub4: "Distribución"
+      sub5: "Control"
+      sub6: "Subestaciones"
+      sub7: "Sistemas de tierra"
+      sub8: "Sistema de pararrayos"
+      sub9: "Sistema de respaldo"
+      sub10: "Ahorro de energía"
+      sub11: "Energía renovable"
+      sub12: "Iluminación"
+      sub13: "Alumbrado"
+      sub14: "Urbanización"
+      sub15: "Regulación de voltaje"
+
+    mechanic: 
+      title: "Mecánico"
+      description: "Son las que comprenden la vehiculación de fluidos (líquidos y gases) y en las que interviene, por tanto, la mecánica necesaria para ello.  Al igual que en las instalaciones eléctricas, existe una normativa concreta que regula este tipo de instalaciones."
+      sub1: "Hidráulico"
+      sub2: "Pluvial"
+      sub3: "Sanitario"
+      sub4: "Sistema contra incendio"
+      sub5: "Gas"
+      sub6: "Tuberías de servicio"
+      sub7: "Plantas tratadoras de agua"
+      sub8: "Tanques de agua"
+      sub9: "Riego"
+      sub10: "Equipos hidroneumáticos"
+      sub11: "Albercas, fuentes y almacenamiento de agua"
+      sub12: "Urbanización"
+    security: 
+      title: "Seguridad Electrónica"
+      description: "Este concepto engloba a todos los productos y servicios que, basados en algún dispositivo electrónico, permiten implementar controles y avisos automáticos como complemento fundamental de cualquier plan general de seguridad."
+
+      sub1: "Circuito cerrado de tv"
+      sub2: "Control de accesos"
+      sub3: "Detección de humos"
+      sub4: "Monitoreos"
+      sub5: "Detección de gases tóxicos"
+
+    air: 
+      title: "Aire Acondicionado"
+      description: "Los Sistemas de Aire Acondicionado permiten crear un clima artificial en el interior de un edificio. De acuerdo a las necesidades, en ciertos momentos se deberá producir calor y en otros frío, para generar un ámbito de temperatura agradable."
+      sub1: "Aire acondicionado"
+      sub2: "Ventilación"
+      sub3: "Calefacción"
+      sub4: "Extracción"
+      sub5: "Refrigeración"
+      sub6: "Humidificación"
+      sub7: "Des humidificación"
+      sub8: "Ductería"
+  login:
+    copy: "Elige a dónde quieres ingresar."
+    sharebox: "CARPETA VIRTUAL"
+    email: "CORREO ELECTRÓNICO"
+  about:
+    principles: 
+      title: "Siete principios básicos de la empresa."
+      one: "Ser los mejores."
+      two: "Comunicación y franqueza."
+      three: "Proactivos hacia las necesidades del cliente"
+      four: "Seguridad integral de nuestro personal."
+      five: "Cuidar los sitios de trabajo."
+      six: "Ser contratados a precios justos."
+      seven: "Actualizacion constante certificada."
+    quote: "Simplemente somos un equipo de profesionales."
+    ourcompany:
+      title: "Nuestra Empresa"
+      description1: "Hammers electromecánica y seguridad electrónica nace para ofrecer servicios especializados y mano de obra calificada en ingeniería, ejecución, mantenimiento, auditoría y reparación de los sistemas electromecánicos como instalaciones eléctricas, hidráulicas, aire acondicionado y sistemas de seguridad electrónica necesarios en la industria de la construcción y mantenimiento."
+      description2: "Nuestra experiencia es un compromiso para el logro de la perfección, que la medimos en calidad, economía y entrega en tiempo y forma de los acuerdos hechos en cada proyecto, mantenimiento o reparación."
+      description3: "La misión de Hammers es generar rendimiento a la empresa a través de la proveeduría de servicios de alta calidad en asesoría, ingeniería, instalación, auditoría y mantenimiento electromecánico, aire acondicionado y seguridad electrónica para la industria de la construcción residencial, industrial o comercial."
+    bestchoice:
+      title: "La Mejor Opción"
+      description1: "Somos expertos en todas las instalaciones, desde la instalación de una unidad de aire acondicionado, un sensor de humo, un apagador o la compostura del drenaje de una residencia hasta subestaciones, líneas de distribución, redes de protección contra incendio, redes de circuito cerrado o detecciones de humo."
+      description2: "No importa quién te haya hecho la ingeniería, nosotros la ejecutamos; no importa quién te haya hecho la instalación, nosotros la auditamos; no importa donde hayas comprado el producto, nosotros lo instalamos, lo reparamos o le damos el mantenimiento; no importa que solo quieras que te hagamos la ingeniería o solo quieres que te asesoremos."
+    commitment:
+      title: "Nuestro Compromiso"
+      description1: "Desde que recibimos su llamada en Hammers manejamos todos sus datos personales, empresariales, proyectos y urgencias de manera confidencial y con el trato especial que nuestros clientes y prospectos nos solicitan."
+      description2: "También es muy importante señalar que Hammers hace hincapié en la seguridad integral de nuestro personal de tal manera que todo nuestro equipo  cuenta con seguro social, equipo de seguridad y herramienta necesaria para hacer los trabajos solicitados sin ponerse en riesgo su integridad, así como también cuidamos y mantenemos limpias nuestras zonas de trabajo durante el tiempo que durela instalación, reparación omantenimiento solicitado."
+  projects:
+    title: "Proyectos recientes"
+
+    one: 
+      title: "Fraccionamiento Los Parques Tercer Sector"
+
+      feature-one: "∙ Media tensión"
+
+      feature-two: "∙ Baja tensión"
+
+      feature-three: "∙ Alumbrado público"
+
+    two:
+      title: "Fraccionamiento Quinta Real II"
+
+      feature-one: "∙ Media tensión"
+
+      feature-two: "∙ Baja tensión"
+
+      feature-three: "∙ Alumbrado público"
+
+    three:
+      title: "Fraccionamiento Reguiletes"
+
+      feature-one: "∙ Media tensión"
+
+      feature-two: "∙ Baja tensión"
+
+      feature-three: "∙ Alumbrado público"
+
+    four:
+      title: "Fraccionamiento Santa Isabel"
+
+      feature-one: "∙ Troncal"
+
+      feature-two: "∙ Media tensión"
+
+      feature-three: "∙ Baja tensión"
+
+    five: 
+      title: "Edificio departamentos Compostela II"
+
+      feature-one: "∙ Media tensión"
+
+      feature-two: "∙ Baja tensión"
+
+      feature-three: "∙ Iluminación"
+
+      feature-four: "∙ Alumbrado público"
+
+      feature-five: "∙ Seguridad electrónica"
+
+    six:
+      title: "Edificio Corporativo HEB"
+
+      feature-one: "∙ Media tensión"
+
+      feature-two: "∙ Baja tensión"
+
+      feature-three: "∙ Alumbrado público"
+
+      feature-four: "∙ Hidráulico"
+
+      feature-five: "∙ Sanitario"
+
+      feature-six: "∙ Pluvial"
+
+      feature-seven: "∙ Extracción"
+
+      feature-eight: "∙ Condensados"
+
+    seven:
+      title: "Edificio de oficinas Altreca"
+
+      feature-one: "∙ Media tensión"
+
+      feature-two: "∙ Baja tensión"
+
+      feature-three: "∙ Alumbrado"
+
+      feature-four: "∙ Iluminación"
+
+      feature-five: "∙ Hidráulico"
+
+      feature-six: "∙ Sanitario"
+
+      feature-seven: "∙ Pluvial"
+
+      feature-eight: "∙ Sistema contra incendio"
+
+    eight:
+      title: "Edificio de oficinas Belisario"
+
+      feature-one: "∙ Media tensión"
+
+      feature-two: "∙ Baja tensión"
+
+      feature-three: "∙ Alumbrado"
+
+      feature-four: "∙ Iluminación"
+
+      feature-five: "∙ Hidráulico"
+
+      feature-six: "∙ Sanitario"
+
+      feature-seven: "∙ Pluvial"
+
+      feature-eight: "∙ Sistema contra incendio"
+
+    nine:
+      title: "Edificio de departamentos Oriente 109"
+
+      feature-one: "∙ Media tensión"
+
+      feature-two: "∙ Baja tensión"
+
+      feature-three: "∙ Alumbrado"
+
+      feature-four: "∙ Iluminación"
+
+      feature-five: "∙ Hidráulico"
+
+      feature-six: "∙ Sanitario"
+
+      feature-seven: "∙ Pluvial"
+
+      feature-eight: "∙ Gas"
+
+      feature-nine: "∙ Condensados"
+
+      feature-ten: "∙ Extracción"
+  contact:
+    title: "Contáctanos"
+    send_mail: "ENVIAR CORREO"
+    send: "ENVIAR"
+    description: "Si quieres pertenecer a nuestro equipo de trabajo, quieres ser contratista, proveedor, que seamos equipo de tu proyecto o estas interesado en nuestras pólizas de mantenimiento, envíanos tu información y te contactaremos a la brevedad posible, estamos al pendiente de todos los que buscan contactarnos, nos comprometemos a contactarte en menos de 24 horas."
+    full_name: "Nombre Completo:"
+    mail: "Correo:"
+    phone: "Teléfono:"
+    interest: "Area de Interés:"
+    option-1: "Bolsa de trabajo"
+    option-2: "Clientes "
+    option-3: "Contratistas "
+    option-4: "Polizas de mantenimiento"
+    option-5: "Proyectos"
+    option-6: "Quejas y sugerencias"
+    option-7: "Quiero ser proveedor "
+
+    upload: "Subir un archivo: (10Mb)"
+    select-file: "Seleccionar archivo..."
+    message: "Mensaje:"
+
+  services:
+    one:
+      title: "Ingeniería 8/6"
+      description: "Contamos con un equipo de diseñadores y dibujantes expertos en instalaciones eléctricas, iluminación, sistema contra incendio, hidrosanitario, aire acondicionado, tuberías de diferentes servicios y seguridad electrónica. Nuestra empresa cuenta con los equipos y programas necesarios para hacerle frente a las necesidades de nuestros clientes."
+    two:
+      title: "Pólizas de mantenimiento a tu medida 24/7"
+      description: "En Hammers hacemos hincapié que toda fábrica, hospital, centro comercial, oficina, parque industrial u otros deben de tener un seguimiento de mantenimiento preventivo para no detener los procesos de producción, servicios u ocasionar malestares a los clientes, la consecuencia de no tener una póliza de mantenimiento puede resultar en un mantenimiento correctivo en corto o largo plazo a altos costos de inversión, adaptamos tu póliza de mantenimiento a tu medida desde tener cuadrillas de planta las 24 horas hasta contar con servicio de horas por mes, de esta manera ampliamos un año la garantía sobre las instalaciones o reparaciones sin costo."
+    three:
+      title: "Instalación 24/7"
+      description: "Nuestra experiencia es un compromiso para el logro de la perfección, en Hammers contamos con técnicos, supervisores y residentes de obra expertos en instalaciones de seguridad electrónica y electromecánicas industriales, comerciales y residenciales, enfocándonos en la calidad, que nuestra empresa por política debe de ofrecer y el tiempo de entrega que  requiere nuestro cliente."
+    four: 
+      title: "Garantías a tu medida 24/7"
+      description: "Todos nuestros servicios de instalación, mantenimiento y reparación tienen garantía amplia las 24 horas los 7 días del año, sobre cualquier acontecimiento suscitado por defecto de fábrica en los equipos suministrados por nuestra empresa y en mano de obra, nosotros te protegemos directamente, nosotros nos hacemos responsables, simplemente somos profesionales."
+    five:
+      title: "Respaldo de energía 24/7"
+      description: "Nuestra empresa cuenta con plantas de emergencia y con asociaciones de propietarios de plantas de emergencia a nivel nacional con el que te damos solución a tu urgencia."
+    six:
+      title: "Factibilidades 8/6"
+      description: "En Hammers electromechanical apoyamos ante dependencias privadas y públicas con el trámite de factibilidades y otros procesos administrativos necesarios para que tu proyecto se pueda llevar a cabo en tiempo y forma. CFE, Agua y drenaje, Gas Natural, Protección Civil, Unidades Verificadoras, etc."
+    seven:
+      title: "Administración de las instalaciones 8/6"
+      description: "En cualquier proyecto industrial, comercial, habitacional o institucional Hammers Electromechanical tiene el servicio de administración de proyecto sobre todas las instalaciones electromecánicas, aire acondicionado y seguridad electrónica, donde asesoramos, planeamos, organizamos y controlamos el proceso de las instalaciones para lograr un proyecto eficiente a las necesidades del cliente."
+    eight:
+      title: "Reparación 24/7"
+      description: "Las 24 horas del día los 7 días del año, en Hammers estamos para reparar siniestros ocurridos en los sistemas electromecánicos y seguridad electrónica, nuestro equipo cuenta con las herramientas, refacciones y equipo suficiente para reparar sus necesidades que pueden ser desde un transformador hasta un equipo de aire acondicionado, nosotros lo solucionamos."
+    nine:
+      title: "Auditoría 8/6"
+      description: "Nuestro equipo de ingenieros y administrativos tiene la capacidad de auditar las instalaciones, ingenierías o proyectos desde el punto de vista cualitativo como cuantitativo, estamos para atenderte."
+    quote: "NUESTRO EQUIPO ESTÁ PARA ATENDERTE DIA Y NOCHE, POR TELÉFONO O VISITARTE, NOSOTROS TE ATENDEMOS"
+
